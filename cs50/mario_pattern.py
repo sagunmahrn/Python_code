@@ -26,12 +26,12 @@ def main():
 
 
 def print_square(size):
-    # for each row in square
-    for i in range(size):
-        # for each brick in row
-        for j in range(size):
-            #Print brick
-            print("#",end="")
+    
+    for i in range(size):# for each row in square
+       
+        for j in range(size): # for each brick in row
+            
+            print("#",end="") #Print brick
         print()
 
 main()
